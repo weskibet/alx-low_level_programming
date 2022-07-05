@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  *
- * Return: Always returns 0
+ * Return: always returns 0
  */
 int main(void)
 {
@@ -15,6 +15,6 @@ int main(void)
 	{
 		continue;
 	}
-	putcher (a);
+	putchar (a);
 	return (0);
 }
