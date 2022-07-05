@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * main -> Assign a random number to the variable n each
- * and print the last digit stored of the number stored in the variable
+ * main - Assign a random number to the variable n each
+ * 
  * Return : Always 0
  */
 int main(void)
