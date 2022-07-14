@@ -4,7 +4,7 @@
  * @p: The string will be modified
  * Return: char var
  */
-char *string_toupper(char *p)
+char *string_toupper(char *)
 {
 	int a = 0;
 
