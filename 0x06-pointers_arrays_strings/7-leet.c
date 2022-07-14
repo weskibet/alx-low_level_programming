@@ -11,7 +11,7 @@ char *leet(char *s)
 	int upper_case_letters[] = {65, 69, 79, 84, 76};
 	int numbers[] = {52, 51, 48, 55, 49};
 
-	while (*(s + n) != '\10')
+	while (*(s + n) != '\0')
 	{
 		for (i = 0; i < 5; i++)
 		{
