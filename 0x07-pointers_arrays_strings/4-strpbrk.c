@@ -2,9 +2,9 @@
 /**
  * _strpbrk - Searches a string for any set of bytes.
  * @s: First string.
- * @accept: second dtring.
- * Return: A pointer to the byte is s that matches of the
- * bytes in accept, or NULL if no such byte is found
+ * @accept: Second string.
+ * Return: A pointer to the byte is s that matches one of
+ * the bytes in accept, or NULL if no such byte is found.
  */
 char *_strpbrk(char *s, char *accept)
 {
