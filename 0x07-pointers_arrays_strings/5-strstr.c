@@ -2,9 +2,9 @@
 /**
  * _strstr - Finds the first occurence of the substring.
  * needle in the string haystack.
- * @haystack: entire string
- * @needle: substring
- * Return: Pointer to the beginning of the found substring 
+ * @haystack: entire string.
+ * @needle: substring.
+ * Return: Pointer to the beginning of the found substring
  * or NULL if the substring is not found.
  */
 char *_strstr(char *haystack, char *needle)
