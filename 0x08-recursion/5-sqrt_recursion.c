@@ -1,4 +1,4 @@
-#inclue "main.h"
+#include "main.h"
 /**
  * power_operation - returns the natural dquare root of a number
  * @n: input number.
