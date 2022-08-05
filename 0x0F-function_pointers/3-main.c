@@ -8,7 +8,7 @@
  * @argv: arg array
  * Return: int
  */
-int main(int argc, char **argv)
+int main(int argc, char *argv[])
 {
 	int a, b;
 	int (*f)(int, int);
