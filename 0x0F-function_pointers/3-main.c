@@ -10,7 +10,7 @@
  */
 int main(int argc, char **argv)
 {
-	int inta, intb;
+	int a, b;
 	int (*f)(int, int);
 
 	if (argc != 4)
@@ -33,8 +33,8 @@ int main(int argc, char **argv)
 		printf("Error\n");
 		exit(99);
 	}
-	inta = atoi(argv[1]);
-	intb = atoi(argv[3]);
+	a = atoi(argv[1]);
+	b = atoi(argv[3]);
 
 	printf("%d\n", f(inta, intb));
 
